@@ -6,7 +6,6 @@ import { useLoaderData, useParams } from 'react-router-dom'
 export async function getProductDetails({params}) {
   try {
     const product = await axios.get(`https://fakestoreapi.com/products/${params.id}`)
-    console.log(product.data)
     return product.data
   } catch(error) {
     console.log(error)
