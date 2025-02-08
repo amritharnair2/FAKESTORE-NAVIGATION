@@ -34,10 +34,10 @@ export default function Productdetails() {
   return (
 
     <div className="row">
-         <div className="col">
+         <div className="col-md-6">
              <img src={product?.image} alt='' className='Pimg' />
         </div>
-        <div className="col">
+        <div className="col-md-6">
            <h2>{product?.title}</h2>
           <p className='text-muted'>{product?.category}</p>
           <p>{product?.description}</p>
