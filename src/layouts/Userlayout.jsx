@@ -1,5 +1,5 @@
 import React from 'react'
-import Homepage from '../pages/HomePage'
+import Homepage from '../pages/Homepage'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
