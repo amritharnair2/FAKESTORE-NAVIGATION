@@ -33,7 +33,7 @@ export default function Productdetails() {
 
   return (
 
-    <div className="row">
+    <div className="row g-4">
          <div className="col-md-6">
              <img src={product?.image} alt='' className='Pimg' />
         </div>
