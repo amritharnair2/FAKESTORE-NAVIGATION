@@ -2,7 +2,6 @@ import axios from 'axios'
 import Button from 'react-bootstrap/Button';
 import React, { useEffect, useState } from 'react'
 import { useLoaderData, useParams } from 'react-router-dom'
-import Loading from '../components/Loading';
 
 export async function getProductDetails({params}) {
   try {
